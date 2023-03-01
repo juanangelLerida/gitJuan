@@ -21,7 +21,7 @@ with open('C:\Users\juanlerrod\Desktop\git\prueba.txt', 'r') as file:
 
 # Upload to github
 git_prefix = 'gitJuan/'
-git_file = git_prefix + 'file.txt'
+git_file = git_prefix + 'prueba.txt'
 if git_file in all_files:
     contents = repo.get_contents(git_file)
     repo.update_file(contents.path, "committing files", content, contents.sha, branch="master")
