@@ -1,4 +1,4 @@
-def run():
+
   # Import the requests module for send a PUT request
 import requests
 # Import the base64 module for encoding a file to base64
@@ -10,7 +10,7 @@ githubAPIURL = "https://api.github.com/repos/juanangelLerida/gitJuan/contents/pr
 # Paste your API token here
 githubToken = "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"
 
-
+def run():
 with open("pruebaJ1.txt", "rb") as f:
     # Encoding "my-local-image.jpg" to base64 format
     encodedData = base64.b64encode(f.read())
