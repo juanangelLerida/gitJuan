@@ -1,2 +1,2 @@
 def run():
-echo: ('hola mundo')
+  print('hola mundo')
