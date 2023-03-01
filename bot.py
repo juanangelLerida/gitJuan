@@ -8,7 +8,7 @@ githubAPIURL = "https://api.github.com/repos/juanangelLerida/gitJuan/contents/pr
 # Replace "bracketcounters" with your username, replace "test-repo" with your repository name and replace "new-image.png" with the filename you want to upload from local to GitHub.
 
 # Paste your API token here
-githubToken = "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"
+githubToken = "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"
 
 with open("pruebaJ1.txt", "rb") as f:
     # Encoding "my-local-image.jpg" to base64 format
