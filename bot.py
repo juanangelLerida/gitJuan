@@ -28,4 +28,4 @@ if git_file in all_files:
     print(git_file + ' UPDATED')
 else:
     repo.create_file(git_file, "committing files", content, branch="master")
-    print(git_file + ' CREATED'
+    print(git_file + ' CREATED')
