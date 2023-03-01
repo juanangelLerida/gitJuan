@@ -1,4 +1,4 @@
-
+def run():
   # Import the requests module for send a PUT request
 import requests
 # Import the base64 module for encoding a file to base64
