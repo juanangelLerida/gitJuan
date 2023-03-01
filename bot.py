@@ -16,7 +16,7 @@ while contents:
         file = file_content
         all_files.append(str(file).replace('ContentFile(path="','').replace('")',''))
 
-with open('C:\Users\juanlerrod\Desktop\git\prueba.txt', 'r') as file:
+with open(r"C:\Users\juanlerrod\Desktop\git\prueba.txt", 'r') as file:
     content = file.read()
 
 # Upload to github
